@@ -46,7 +46,7 @@ def pressSpace(event):
 window = Tk(screenName='Game of Life')
 canvas = Canvas(window,width=200,height=200)
 canvas.bind('<Button-1>',clickevent)
-canvas.bind('<Space>',pressSpace)
+canvas.bind('<space>',pressSpace)
 canvas.pack()
 create(20,20)
 master.after(1,update)
